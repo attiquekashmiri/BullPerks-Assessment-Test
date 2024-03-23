@@ -1,0 +1,6 @@
+@BullPerks_HostAddress = http://localhost:5240
+
+GET {{BullPerks_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

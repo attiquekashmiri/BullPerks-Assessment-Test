@@ -1,0 +1,18 @@
+<table class="my-5">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Total Supply</th>
+      <th>Circulating Supply</th>
+      <th>Load date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of infoData">
+      <td>{{ item.name }}</td>
+      <td>{{ item.totalSupply  | weiToEther}}</td>
+      <td>{{ item.circulatingSupply | weiToEther}}</td>
+      <td>{{ item.createdDate |  date:'medium'}}</td>
+    </tr>
+  </tbody>
+</table>

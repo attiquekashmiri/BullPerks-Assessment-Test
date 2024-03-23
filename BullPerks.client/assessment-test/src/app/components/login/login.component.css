@@ -1,0 +1,13 @@
+.row {
+  height: 100vh;
+}
+
+h2 {
+  padding: 12px;
+  margin: 0;
+}
+
+small div {
+  padding: 2px;
+  font-weight: 500;
+}
