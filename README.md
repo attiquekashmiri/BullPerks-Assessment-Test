@@ -30,6 +30,8 @@ Example:
   // Other configurations...
 }
 
+Open "Package Manager Console". Run Command "update-database" to apply db changes to server.
+
 Make any other relevant changes in the backend code if needed.
 
 ### Running the Project
