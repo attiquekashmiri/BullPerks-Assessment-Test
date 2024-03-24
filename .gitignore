@@ -361,3 +361,21 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+# Angular specific
+/dist/
+/node_modules/
+/tmp/
+
+# e2e
+/e2e/*.log
+/e2e/*.junit.xml
+/e2e/*.screenshots/
+/e2e/*.videos/
+
+# Angular cache folder
+/.ng-cache/
+
+# Ignore the .angular folder
+.angular/
